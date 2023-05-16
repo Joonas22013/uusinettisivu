@@ -1,0 +1,438 @@
+header {
+    background-color: #0e2c68; 
+    opacity: 100%;
+    color: white;
+    padding-right: 10%;
+    
+}
+.body-rengaskaivo{
+    margin: auto;
+    background-image: "../assets/photo15.jpg)";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    background-size:cover;
+    background-position: 30% 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+ 
+body {
+
+    justify-content: center;
+    margin: auto;
+    background-image: url(../assets/background2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    background-size:cover;
+    background-position: 30% 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+main {
+    
+    padding-bottom: 10%;
+    text-align: center;
+    background-color:#84cff260;
+    
+}
+
+.nav {
+    text-align: center;
+    background-color: #84cff2f3;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.logo {
+    margin: left;
+    width: auto;
+    height:100px;
+    padding-right: 30px;
+    padding-left: 20px;
+     
+}
+
+.logo:hover{
+    transform: scale(0.9);
+
+}
+
+@media  screen and (min-width: 200px) and (max-width: 600px) {
+ 
+    .site-branding img {
+        margin-top: 80%;
+        width:50px;
+        height: 50px;
+    }
+    .main-header {height:80px;}
+
+    .column1{max-width: 100%;}
+
+    .box{
+        min-width: 90%;
+    }
+    
+    
+
+ 
+}
+
+
+
+
+@media  screen and (min-width: 600px) {
+    b{
+        font-size: 35px;
+        margin-right: 800px;
+        
+        
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
+    .footerlogo{
+        width: 50px;
+        height: auto;
+    }
+    
+    
+    
+    
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+h2{
+    margin: auto;
+    font-size: 20px;
+    text-align: left;
+    
+    
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding-bottom: 40px;
+    padding-top: 10px;
+
+}
+
+h4{
+    text-align: center;
+    font-size: 180%;
+    color: white;
+    
+}
+h5{
+    font-size: 120%;
+}
+
+
+
+p{
+    font-size: 19px;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    
+
+
+}
+
+
+li{
+    font-size: 100%;
+    padding-bottom: 10px;
+    list-style: none;
+    text-align: left;
+}
+/*footer{
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    text-align: center;
+    clear: both;
+    position: relative;
+    margin: auto 0;
+    height: 200px;
+    
+}*/
+
+.row {
+    display: flex;
+    
+}
+
+
+.column1 {
+    display: flex;
+    text-align: right;
+    margin: left;
+    width: 100%;
+    font-size: 15px;
+
+   
+}
+.column2 {
+    display: flex;
+    margin-left: auto;
+
+   
+}
+.column{
+    display: flex;
+    margin: auto;
+    background-color: #1a1c209c;
+    border-radius: 20px;
+    color: white;
+    padding: 100px;
+    
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+
+a:hover {
+    color: #84d0f2;
+    
+}
+
+table{
+    text-align: center;
+    margin: auto;
+
+
+}
+
+td{
+    width: 100%;
+    text-align: center;
+    
+}
+.main-tr{
+    background-color:#0e2c68f8;
+    color: white;
+
+    
+    
+}
+.main-td{
+
+    padding: 40px;
+    text-align: left;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin: auto;
+
+   
+}
+
+
+.img-gallery{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    
+}
+.img-gallery img{
+   
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-position: center;
+    object-fit: cover;
+}
+
+.img-gallery img:hover{
+    transform: scale(1.5);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px;
+}
+
+.footer-info{
+    
+    width: 100%;
+    display:block;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    max-width: 300px;
+
+}
+
+.yt{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.yt-main-td{
+    padding: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: auto;
+
+
+
+}
+
+.container{
+
+    width: 100%;
+    height: auto;
+    color: white;
+    padding-bottom: 60px;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footercontainer{
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar{
+    width: 100%;
+    height: 60%;
+    max-width: 100px;
+    text-align: right;
+    align-items: right;
+    color: #0e2c68;
+    
+  
+
+}
+
+.box{
+    width: 30%;
+    height:325px;
+    background-color: #0e2c68f8;
+    margin: 20px;
+    box-sizing: border-box;
+    margin:left;
+    border-radius: 10px;
+    
+
+}
+
+.footerbox{
+
+    width: 30%;
+    height:auto;
+    margin: auto;
+    box-sizing: border-box;
+    margin:center;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+.container{
+
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 8%;
+    
+}
+
+
+button{
+    background-color: rgba(9,173,210,255);
+    color: white;
+    border-radius: 70px;
+    width: 50%;
+    height:10%;
+    border-style: none;
+    cursor: pointer;
+
+    
+}
+
+button:hover{
+    transform: scale(1.05)
+}
+
+.navbutton{
+    
+    font-size: 100%;
+    background-color: #0e2c68;
+    width: 250px;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+.navbutton:hover{
+    transform: scale(1.05);
+
+}
+
+
+.containerimg{
+    align-items: left;
+    padding-top: 20px;
+    
+
+
+}
+
+.footerlogo{
+
+    width: 100px;
+    height:auto;
+    
+}
